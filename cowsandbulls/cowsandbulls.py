@@ -1,3 +1,5 @@
+import random
+
 # Cows and Bulls
 # A game of Cows and Bulls
 
