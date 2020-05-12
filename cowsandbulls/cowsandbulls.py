@@ -13,7 +13,7 @@ if __name__ == "__main__":
     print(rnum)
     guess = 0
     while True:
-        pnum = str(input("Guess the 4-digit number (0000 - 9999): "))
+        pnum = str(input("Guess the 4-digit number (1000 - 9999): "))
         cowbull = [0, 0]
         for i in range(4):
             if rnum[i] == pnum[i]:
