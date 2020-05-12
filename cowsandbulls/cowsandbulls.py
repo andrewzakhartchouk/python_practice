@@ -9,7 +9,7 @@ print("|| Welcome to Cow and Bulls! I have a 4-digit number and you have to gues
 
 
 if __name__ == "__main__":
-    rnum = str(random.randint(1000, 9999))
+    rnum = str(random.randint(1000, 10000))
     print(rnum)
     guess = 0
     while True:
